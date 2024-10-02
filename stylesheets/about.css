@@ -1,0 +1,38 @@
+body.about {
+  width: 1440px;
+  height: 3120px;
+}
+body.about::after {
+  width: 1440px;
+  height: 3120px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/1440.png");
+  opacity: 0.2;
+}
+.about section {
+  display: flex;
+}
+.about div {
+  overflow: hidden;
+}
+.about h1 {
+  font-size: 38px;
+  line-height: 44px;
+}
+.about p {
+  font-size: 26px;
+  line-height: 38px;
+  margin-top: 32px;
+}
+.about section div:nth-of-type(1) {
+  background-color: rgb(98, 146, 119);
+  width: 760px;
+  padding: 130px 120px 0 120px;
+}
+.about section div:nth-of-type(2) {
+  width: 680px;
+  padding-top: 80px;
+}
